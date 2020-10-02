@@ -6,19 +6,24 @@
 # i3smartfocus
 
 `i3smartfocus` can be used in place of the default i3wm focus in order
-to be able to focus in directions and bypass any the default behavior of
-moving focus to the last focused window inside a container.
+to restore a more natural way of moving focus.
+
+The default focus behavior will focus on the last focused window inside
+a container (which might not be the chosen direction) instead of honoring
+the direction chosen. `i3smartfocus` fixes this.
 
 # Installation
 
-**TODO**
+```bash
+sudo pip3 install i3smartfocus
+```
+
+Or simply copy (i3smartfocus.py)[i3smartfocus/i3smartfocus.py] somewhere in your path.
 
 # Usage
 
-**TODO**
-
-Edit i3 config `~/.config/i3/config` and replace the default focus tool
-```
+Edit your i3 config `~/.config/i3/config` and replace the default focus tool
+```bash
 bindsym Mod1+Left  exec --no-startup-id "i3smartfocus left"
 bindsym Mod1+Down  exec --no-startup-id "i3smartfocus down"
 bindsym Mod1+Up    exec --no-startup-id "i3smartfocus up"
