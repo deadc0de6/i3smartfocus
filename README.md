@@ -18,7 +18,7 @@ the direction chosen. `i3smartfocus` fixes this.
 sudo pip3 install i3smartfocus
 ```
 
-Or simply copy (i3smartfocus.py)[https://github.com/deadc0de6/i3smartfocus/blob/main/i3smartfocus/i3smartfocus.py]
+Or simply copy [i3smartfocus.py](https://github.com/deadc0de6/i3smartfocus/blob/main/i3smartfocus/i3smartfocus.py)
 somewhere in your path.
 
 # Usage
