@@ -15,7 +15,7 @@ import math
 import tempfile
 
 
-VERSION = '0.1'
+VERSION = '0.1.1'
 # debug mode
 DEBUG = False
 # allowed direction arguments
