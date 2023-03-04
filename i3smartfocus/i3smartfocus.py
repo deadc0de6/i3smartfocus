@@ -15,7 +15,7 @@ import tempfile
 import i3ipc
 
 
-VERSION = '0.1.3'
+VERSION = '0.1.4'
 # debug mode
 DEBUG = False
 # allowed direction arguments
