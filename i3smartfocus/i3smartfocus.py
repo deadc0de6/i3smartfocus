@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # author: deadc0de6
+#
+# pylint: disable=E0012
 
 """
 author: deadc0de6 (https://github.com/deadc0de6)
@@ -135,7 +137,7 @@ def save_last_workspace(wsid):
     try:
         with open(PATH, 'w', encoding='utf-8') as file:
             file.write(str(wsid))
-    except Exception:  # pylint: disable=W0718
+    except Exception:  # pylint: disable=W0718,W0703
         pass
 
 
@@ -147,7 +149,7 @@ def get_last_workspace():
         with open(PATH, 'r', encoding='utf-8') as file:
             val = file.read()
         return int(val)
-    except Exception:  # pylint: disable=W0718
+    except Exception:  # pylint: disable=W0718,W0703
         return 0
 
 
