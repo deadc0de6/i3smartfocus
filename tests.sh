@@ -10,5 +10,9 @@ pycodestyle setup.py
 pyflakes i3smartfocus/
 pyflakes setup.py
 
-pylint i3smartfocus/
-pylint setup.py
+pylint \
+  --disable=E0012 \
+  i3smartfocus/
+pylint \
+  --disable=E0012 \
+  setup.py
