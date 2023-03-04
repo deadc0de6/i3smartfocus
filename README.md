@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/deadc0de6/i3smartfocus.svg?branch=master)](https://travis-ci.org/deadc0de6/i3smartfocus)
+[![Build Status](https://github.com/deadc0de6/i3smartfocus/workflows/tests/badge.svg)](https://github.com/deadc0de6/i3smartfocus/actions)
 [![PyPI version](https://badge.fury.io/py/i3smartfocus.svg)](https://badge.fury.io/py/i3smartfocus)
 [![Python](https://img.shields.io/pypi/pyversions/i3smartfocus.svg)](https://pypi.python.org/pypi/i3smartfocus)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
