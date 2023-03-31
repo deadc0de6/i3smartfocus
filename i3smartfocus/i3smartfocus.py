@@ -135,7 +135,7 @@ def save_last_workspace(wsid):
     try:
         with open(PATH, 'w', encoding='utf-8') as file:
             file.write(str(wsid))
-    except Exception:  # pylint: disable=W0718,W0703
+    except Exception:  # pylint: disable=W0703
         pass
 
 
@@ -147,7 +147,7 @@ def get_last_workspace():
         with open(PATH, 'r', encoding='utf-8') as file:
             val = file.read()
         return int(val)
-    except Exception:  # pylint: disable=W0718,W0703
+    except Exception:  # pylint: disable=W0703
         return 0
 
 
